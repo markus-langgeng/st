@@ -12,8 +12,8 @@ static char *font2[] = {
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
   // "Inconsolata Nerd Font Propo:pixelsize=15:antialias=true:autohint=true",
   // "Noto Sans CJK JP:pixelsize=15:antialias=true:autohint=true",
-  "Symbols Nerd Font:pixelsize=10:antialias=true:autohint=true",
-  "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true",
+  "Symbols Nerd Font:pixelsize=13:antialias=true:autohint=true",
+  "Noto Color Emoji:pixelsize=12:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
