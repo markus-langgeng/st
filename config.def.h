@@ -11,9 +11,9 @@ static char *font2[] = {
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
   // "Inconsolata Nerd Font Propo:pixelsize=15:antialias=true:autohint=true",
-  // "Noto Sans CJK JP:pixelsize=15:antialias=true:autohint=true",
   "Symbols Nerd Font:pixelsize=13:antialias=true:autohint=true",
   "Noto Color Emoji:pixelsize=12:antialias=true:autohint=true",
+  "Noto Sans CJK JP:pixelsize=13:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
@@ -70,7 +70,7 @@ static double maxlatency = 33;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 800;
+static unsigned int blinktimeout = 600;
 
 /*
  * thickness of underline and bar cursors
@@ -83,7 +83,7 @@ static unsigned int cursorthickness = 2;
  *    Bold affects lines thickness if boxdraw_bold is not 0. Italic is ignored.
  * 0: disable (render all U25XX glyphs normally from the font).
  */
-const int boxdraw = 0;
+const int boxdraw = 1;
 const int boxdraw_bold = 0;
 
 /* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
